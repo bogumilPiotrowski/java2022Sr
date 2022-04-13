@@ -42,7 +42,7 @@ public class ZadanieZZegarem {
             return false;
         if (tab.get(0) == 2 && tab.get(1) > 3)
             return false;
-        if (Integer.parseInt(a.substring(2,4)) > 60) {
+        if (Integer.parseInt(a.substring(2,4)) > 59) {
             return false;
         }
 
